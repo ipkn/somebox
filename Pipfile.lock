@@ -1,0 +1,50 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "8ab96325ff713346a44435acb919832f9a761266c3e05d40d0f62267c7ad1e6f"
+        },
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "argh": {
+            "version": "==0.26.2"
+        },
+        "pathtools": {
+            "version": "==0.1.2"
+        },
+        "pyyaml": {
+            "version": "==3.12"
+        },
+        "watchdog": {
+            "version": "==0.8.3"
+        }
+    },
+    "develop": {
+        "-e .": "*",
+        "attrs": {
+            "version": "==17.4.0"
+        },
+        "pluggy": {
+            "version": "==0.6.0"
+        },
+        "py": {
+            "version": "==1.5.2"
+        },
+        "pytest": {
+            "version": "==3.3.1"
+        },
+        "setuptools": {
+            "version": "==38.2.5"
+        },
+        "six": {
+            "version": "==1.11.0"
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import settings
-from watcher import Watcher
+from somebox.client.watcher import Watcher
 
 def main(watch_folders):
     w = Watcher(watch_folders)
