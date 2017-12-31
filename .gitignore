@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+*.swp
+
+share/
+test_folder/

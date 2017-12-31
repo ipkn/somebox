@@ -26,7 +26,8 @@ class Watcher:
 
         self.watch_folders = watch_folders
 
-        for path in watch_folders:
+        for name, path in watch_folders.items():
+            print('watching', path, '(%s)' % name)
             self.observer.schedule(self.event_handler, path, recursive = True)
 
     def set_done(self):

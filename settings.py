@@ -1,1 +1,3 @@
-watch_folders = ["share"]
+watch_folders = {
+        "share":"share"
+}
